@@ -6,11 +6,11 @@ int main() {
     if (a>0){
         printf("Positive\n");
     }
-    else-if{
-        printf("Zero\n");
-    }
-    if (a<0){
+    else if (a<0){
         printf("Negative");
+    }
+    else{
+        printf("Zero");
     }
     return 0;
 }
