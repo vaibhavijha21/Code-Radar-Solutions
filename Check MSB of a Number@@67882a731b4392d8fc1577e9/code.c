@@ -3,8 +3,8 @@
 int main() {
     int a;
     scanf("%d",&a,);
-    if (a&&1){
-        printf("Set");
+    if (a & 0x80000000){
+        printf("Set",a);
     }
     else{
         printf("Not Set");
