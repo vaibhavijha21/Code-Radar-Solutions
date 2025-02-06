@@ -6,6 +6,6 @@ int main() {
         printf("%d",a & 1);
         num>>=1;
     }
-    printf("\n");
+    printf("%d",num);
     return 0;
 }
