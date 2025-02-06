@@ -4,8 +4,8 @@ int main() {
     scanf("%d",&a);
     while(a>0){
         printf("%d",a & 1);
-        num>>=1;
+        a>>=1;
     }
-    printf("%d",num);
+    printf("%d",a);
     return 0;
 }
