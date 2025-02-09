@@ -3,11 +3,14 @@ int main() {
     char a;
     scanf("%d",&a);
     switch(a){
-        case 'A':printf("Excellent");
+        case 'A':
+        printf("Excellent");
         break;
-        case 'B':printf("Good");
+        case 'B':
+        printf("Good");
         break;
-        case 'C':printf("Average");
+        case 'C':
+        printf("Average");
         break;
         case 'D':printf("Below Average");
         break;
