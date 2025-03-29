@@ -3,7 +3,7 @@ int fibonacciSeries(int n){
     if (n==0)
     return 0;
     else 
-    return fibo(n)+fibo(n-1);
+    return fibonacciSeries(n)+fibonacciSeries(n-1);
 }
 int main(){
     int num;
