@@ -1,6 +1,6 @@
 #include <stdio.h>
 int prime(int t){
-    if t<=1 {
+    if (t<=1) {
         return 0;
     }
     for (int i=0;i*i<=t;i++){
