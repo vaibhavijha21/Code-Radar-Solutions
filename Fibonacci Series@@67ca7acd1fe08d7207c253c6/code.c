@@ -3,7 +3,7 @@ void fibonacciSeries(int N){
         return;
     }
     else if (N==1){
-        return ;
+        printf("0\n");
     }
     int t1 = 0, t2 = 1;
     printf("%d %d ",t1,t2);
