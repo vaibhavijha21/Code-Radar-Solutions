@@ -8,7 +8,7 @@ int fibo(int n){
 int main(){
     int num;
     scanf("%d",&num);
-    if (n<=0) {
+    if (num<=0) {
         printf("invalid input\n");
         return 0;
     }
