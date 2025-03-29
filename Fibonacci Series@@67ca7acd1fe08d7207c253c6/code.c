@@ -1,10 +1,14 @@
-int fibonacciSeries(int N){
-    if (N == 0)
-        return 0;
-    else if (N == 1)
-        return 1;
-    else 
-        return fibonacciSeries(N-1) + fibonacciSeries(N-2);
+void fibonacciSeries(int N){
+    int t1=0, int t2 = 1;
+    printf("%d %d ",t1,t2)
+    for(int i=3; i<=N;i++){
+        int next = t1 + t2;
+        printf("%d ",next);
+        t1 = t2;
+        t2 = next;
+    }
+    printf("\n");
+        
 }
 
 
