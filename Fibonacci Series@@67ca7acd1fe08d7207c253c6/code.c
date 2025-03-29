@@ -1,5 +1,5 @@
 #include <stdio.h>
-int fibo(int n){
+int fibonacciSeries(int n){
     if (n==0)
     return 0;
     else 
@@ -13,6 +13,6 @@ int main(){
         return 0;
     }
     else {
-        printf("%d",fibo(num));
+        printf("%d",fibonacciSeries(num));
     }
 }
