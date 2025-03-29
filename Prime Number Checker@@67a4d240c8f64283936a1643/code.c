@@ -4,7 +4,7 @@ int prime(int t){
         return 0;
     }
     for (int i=0;i*i<=t;i++){
-        if (num % i == 0){
+        if (t % i == 0){
             return 0;
         }
         else {
