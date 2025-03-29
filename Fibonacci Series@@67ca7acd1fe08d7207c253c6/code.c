@@ -7,18 +7,6 @@ int fibonacciSeries(int num){
         return fibonacciSeries(num-1) + fibonacciSeries(num-2);
 }
 
- int main(){
-        int num;
-         scanf("%d\n",&num);
-             printf("fibonacci series: ");
-                 for (int i = 0; i < num; i++)
-                   {
-                        printf("%d ",fibonacciSeries(i));
-                   }
-                     printf("\n");
-                         return 0;
-    
- }
 
 
 
