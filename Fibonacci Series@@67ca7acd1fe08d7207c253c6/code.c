@@ -2,6 +2,9 @@ void fibonacciSeries(int N){
     if (N<=0){
         return;
     }
+    else if (N==1){
+        return 0;
+    }
     int t1 = 0, t2 = 1;
     printf("%d %d ",t1,t2);
     for(int i=3; i<=N;i++){
