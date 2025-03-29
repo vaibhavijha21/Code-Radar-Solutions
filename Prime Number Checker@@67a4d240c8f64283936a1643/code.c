@@ -1,10 +1,10 @@
 #include <stdio.h>
-int prime(int t){
-    if (t<=1) {
+int prime(int num){
+    if (num<=1) {
         return 0;
     }
     for (int i=0;i*i<=t;i++){
-        if (t % i == 0){
+        if (num % i == 0){
             return 0;
         }
         else {
