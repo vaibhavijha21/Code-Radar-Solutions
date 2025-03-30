@@ -1,4 +1,4 @@
-#include <stdioo.h>
+#include <stdio.h>
 int main(){
     int N;
     sum =0
