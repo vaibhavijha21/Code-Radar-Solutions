@@ -12,11 +12,11 @@ void sorted(int N,int arr[]){
 }
 int main(){
     int N;
-    int arr[];
+    int array[];
     scanf("%d",&N);
     for(int i=0;i<=N;i++){
-        printf("%d ",arr[i]);
+        printf("%d ",array[i]);
     }
-    printf("%d",sorted(N,arr[]));
+    printf("%d",sorted(N,array[]));
     return 0;
 }
