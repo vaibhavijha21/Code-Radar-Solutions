@@ -1,8 +1,7 @@
 #include <stdio.h>
 void sorted(int N,int arr[]){
+    int sorted = 1;
     for(int i=0;i<=N-1;i++){
-
-        int sorted=0;
         if(arr[i] > arr[i+1]){
             sorted = 0;
             break;
