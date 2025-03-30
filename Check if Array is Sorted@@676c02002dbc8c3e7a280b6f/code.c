@@ -14,7 +14,7 @@ void sorted(int N,int arr[]){
 }
 int main(){
     int N;
-    int array[];
+    int array[N];
     scanf("%d",&N);
     for(int i=0;i<=N;i++){
         scanf("%d ",&array[i]);
