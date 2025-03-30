@@ -10,12 +10,12 @@ int main(){
     int odd=0;
 
     for(int i=1;i<=N;i++){
-        if(arr[i]%2==0){
+        if(arr[i]%2 == 0){
             even++;
         }
         else{
             odd++;
         }
-        printf("%d %d",even,odd);
     }
+    printf("%d %d",even,odd);
 }
