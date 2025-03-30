@@ -11,7 +11,7 @@ int a;
             else {
                 a=0;
             }
-            a++
+            a++;
         }
         printf("\n");
 }
