@@ -8,6 +8,7 @@ void bubbleSort(int arr[],int n){
             arr[j]=arr[j+1];
             arr[j+1]=temp;
             swap=1;
+            }
         }
         if (swap==0)
             break;
